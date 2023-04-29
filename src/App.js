@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import AddressForm from './components/AddressForm';
+import AddressTable from './components/AddressTable';
+import Table from './components/Table';
+import Table2 from './components/Table2';
+import AddForm from './components/AddForm';
+import AddDetails from './components/AddDetails';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     <Table/>
+     <Table2/>
+     <AddressTable/>
+     <AddressForm/>
+     <AddForm/>
+     <AddDetails/>
     </div>
   );
 }
