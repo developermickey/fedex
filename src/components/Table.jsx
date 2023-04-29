@@ -3,8 +3,6 @@ import React from 'react'
  import FedEx_Freight from './FedEx_Freight.png';
 const Table = () => {
   return (
-    
-     
     <>
       <table>
   <tr>
