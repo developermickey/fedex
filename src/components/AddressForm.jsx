@@ -327,34 +327,7 @@ const AddressForm = () => {
 
 
     <table className="table-full" cellSpacing="0" cellPadding="0">
-        <tr>
-          <td className="row-half-50">
-            <span>Name</span>
-            <br />
-            <input
-              type="text"
-              style={{
-                width: 'calc(100% - 0px)',
-                border: '0px',
-                backgroundColor: '#f1f4ff',
-                padding: '6px 0px'
-              }}
-            />
-          </td>
-          <td className="row-half-50">
-            <span>Mailing Address</span>
-            <br />
-            <input
-              type="text"
-              style={{
-                width: 'calc(100% - 0px)',
-                border: '0px',
-                backgroundColor: '#f1f4ff',
-                padding: '6px 0px'
-              }}
-            />
-          </td>
-        </tr>
+  
         <tr>
           <td className="row-half-37">
             <span>City</span>
