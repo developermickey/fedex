@@ -10,7 +10,7 @@ const AddDetails = () => {
           <input type="text" style={{ marginTop: "13px", width: "calc(100% - 83px)", border: "0px", backgroundColor: "#f1f4ff", padding: "6px 0px" }} />
         </td>
         <td className="row-half-80">
-          <span> H MARK “X” OR “RQ” IN THE HM COLUMN TO DESIGNATE HAZARDOUS MATERIALS OR REPORTABLE QUANTITY AS DEFINED IN DOT REGULATIONS.</span>
+          <span> <span class="star">&#9734;</span> MARK “X” OR “RQ” IN THE HM COLUMN TO DESIGNATE HAZARDOUS MATERIALS OR REPORTABLE QUANTITY AS DEFINED IN DOT REGULATIONS.</span>
         </td>
       </tr>
     </table>
@@ -94,74 +94,16 @@ will apply.</span>
     </tr>
   </table>
 
-<span className="blue-strip-text-blue">FOR FREIGHT COLLECT SHIPMENTS</span>
-  <p>Subject to Section 7 of conditions of applicable Bill of Lading. If this shipment is to be delivered to the consignee,
-      without recourse on the consignor, the consignor shall sign the following statement. The carrier may decline to
-      make delivery of this shipment without payment of freight and all other lawful charges.
-  </p>
-  <p>Consignor Signature</p>
+   <span className="blue-strip-text-blue">FOR FREIGHT COLLECT SHIPMENTS</span>
+<span>Subject to Section 7 of conditions of applicable Bill of Lading. If this shipment is to be delivered to the consignee,without recourse on the consignor, the consignor shall sign the following statement. The carrier may decline tomake delivery of this shipment without payment of freight and all other lawful charges.
+  </span>
+ <span>Consignor Signature</span>
   <u style={{ width: "calc(100% - 158px)", marginLeft: "5px", height: "20px", borderBottom: "2px solid #452b93", display: "inline-block" }}></u>
   <span className="blue-strip-text-blue">SHIPPER CERTIFICATION</span>
-  <p>I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping
-      name, and are classified, packaged, marked and labeled/placarded, and are in all respects in proper condition for transport according to applicable international and national governmental regulations.
-  </p>
-  <table style={{ width: "100%" }} cellspacing="0" cellpadding="0">
-    <tbody>
-      <tr>
-        <td style={{ width: "70%" }}>
-          <span style={{ fontSize: "14px", fontWeight: "700" }}>Shipper Signature</span>
-          <input type="text" style={{ width: "calc(100% - 125px)", border: "0px", backgroundColor: "#f1f4ff", padding: "10px 0px" }}></input>
-        </td>
-        <td style={{ width: "30%" }}>
-          <span style={{ fontSize: "14px", fontWeight: "700" }}>Date</span>
-          <input type="text" style={{ width: "calc(100% - 33px)", border: "0px", backgroundColor: "#f1f4ff", padding: "10px 0px" }}></input>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <span className="blue-strip-text-blue">FOR FREIGHT COLLECT SHIPMENTS</span>
-  <p>Subject to Section 7 of conditions of applicable Bill of Lading. If this shipment is to be delivered to the consignee,
-    without recourse on the consignor, the consignor shall sign the following statement. The carrier may decline to
-    make delivery of this shipment without payment of freight and all other lawful charges.
-  </p>
-  <p>Consignor Signature</p>
-  <u style={{ width: "calc(100% - 158px)", marginLeft: "5px", height: "20px", borderBottom: "2px solid #452b93", display: "inline-block" }}></u>
-  <span className="blue-strip-text-blue">SHIPPER CERTIFICATION</span>
-  <p>I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping
-    name, and are classified, packaged, marked and labeled/placarded, and are in all respects in proper condition for transport according to applicable international and national governmental regulations.
-  </p>
-  <table style={{ width: '100%' }} cellSpacing="0" cellPadding="0">
-      <tr>
-        <td style={{ width: '70%' }}>
-          <span style={{ fontSize: '14px', fontWeight: 700 }}>
-            Shipper Signature
-          </span>
-          <input
-            type="text"
-            style={{
-              width: 'calc(100% - 125px)',
-              border: '0px',
-              backgroundColor: '#f1f4ff',
-              padding: '10px 0px',
-            }}
-          />
-        </td>
-        <td style={{ width: '30%' }}>
-          <span style={{ fontSize: '14px', fontWeight: 700 }}>Date</span>
-          <input
-            type="text"
-            style={{
-              width: 'calc(100% - 33px)',
-              border: '0px',
-              backgroundColor: '#f1f4ff',
-              padding: '10px 0px',
-            }}
-          />
-        </td>
-      </tr>
-    </table>
+  <span>I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping name, and are classified, packaged, marked and labeled/placarded, and are in all respects in proper condition for transport according to applicable international and national governmental regulations.
+  </span>
     <span className="blue-strip-text-blue">CARRIER CERTIFICATION</span>
-  <span>Carrier acknowledges receipt of packages and required placards. Carrier certifies emergency response information was made available and/or carrier has the DOT emergency response guidebook or equivalent document in the vehicle.</span>
+  <span>Carrier acknowledges receipt of packages and required placards.Carrier certifies emergency response information was made available and/or carrier has the DOT emergency response guidebook or equivalent document in the vehicle.</span>
   <table style={{ width: '100%', borderCollapse: 'collapse' }}>
     <tbody>
       <tr>
